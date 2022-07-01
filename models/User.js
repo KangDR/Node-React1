@@ -26,7 +26,7 @@ const userSchema=mongoose.Schema({
         type:String
     },
     tokenExp:{
-        type:number
+        type:Number
     }
 })
 const User=mongoose.model('User',userSchema)
